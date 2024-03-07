@@ -4,5 +4,5 @@ namespace Octopus.UserManagement.Core.Domain.Users.Services;
 
 public interface IUserTokenGenerator
 {
-    TokenModel GenerateToken(GenerateUserTokenInputModel generateUserTokenInputModel);
+    TokenModel GenerateToken(UserInfoModel generateUserTokenInputModel);
 }

@@ -23,7 +23,7 @@ internal class ApplicationUserTokenGenerator : IUserTokenGenerator
         _jwtOptions = jwtOptions;
     }
 
-    public TokenModel GenerateToken(GenerateUserTokenInputModel user)
+    public TokenModel GenerateToken(UserInfoModel user)
     {
         var roleClaims = new List<Claim>();
 
