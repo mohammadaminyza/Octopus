@@ -5,8 +5,8 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>disable</Nullable>
 
-		<RootNamespace>Octopus.UserManagement.Core.DomainTest</RootNamespace>
-		<AssemblyName>Octopus.UserManagement.Core.DomainTest</AssemblyName>
+		<RootNamespace>Octopus.UserManagementTest.Core.DomainTest</RootNamespace>
+		<AssemblyName>Octopus.UserManagementTest.Core.DomainTest</AssemblyName>
 	</PropertyGroup>
 
 	<ItemGroup>

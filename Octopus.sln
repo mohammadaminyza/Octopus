@@ -84,11 +84,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Http", "src\UserManagement\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongo", "src\UserManagement\Infrastructure\Mongo\Mongo.csproj", "{9659EE47-8A6E-4139-B06E-33E3F54E6880}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification", "framework\Infrastructure\Notification\Notification.csproj", "{01ABBC87-A5AB-45CC-9807-2E4280DF00B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notification", "framework\Infrastructure\Notification\Notification.csproj", "{01ABBC87-A5AB-45CC-9807-2E4280DF00B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainTest", "tests\UserManagement\Core\DomainTest\DomainTest.csproj", "{61DA69C6-56CE-4335-AC5D-4F08FD95136F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainTest", "tests\UserManagementTests\Core\DomainTests\DomainTests.csproj", "{61DA69C6-56CE-4335-AC5D-4F08FD95136F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserManagement", "UserManagement", "{FFEEB8F6-6C35-4C28-B5FB-C05159272023}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserManagementTests", "UserManagementTests", "{FFEEB8F6-6C35-4C28-B5FB-C05159272023}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0D3EE188-BE5F-4B7A-A133-A7A04D20B9CF}"
 EndProject
